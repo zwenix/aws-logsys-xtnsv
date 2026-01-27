@@ -1,0 +1,13 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Environment Configuration
+environment = "production"
+project_name = "log-service"
+
+# CloudWatch Configuration
+log_retention_days = 7
+
+# DynamoDB Configuration
+# Set to true for production environments to enable Point-in-Time Recovery
+enable_pitr = false

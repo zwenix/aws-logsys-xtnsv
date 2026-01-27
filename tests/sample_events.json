@@ -1,0 +1,23 @@
+{
+  "info_log": {
+    "body": "{\"severity\": \"info\", \"message\": \"Application started successfully\"}"
+  },
+  "warning_log": {
+    "body": "{\"severity\": \"warning\", \"message\": \"High memory usage detected - 85% utilized\"}"
+  },
+  "error_log": {
+    "body": "{\"severity\": \"error\", \"message\": \"Database connection timeout after 30 seconds\"}"
+  },
+  "invalid_severity": {
+    "body": "{\"severity\": \"critical\", \"message\": \"This should fail validation\"}"
+  },
+  "missing_message": {
+    "body": "{\"severity\": \"info\"}"
+  },
+  "empty_message": {
+    "body": "{\"severity\": \"info\", \"message\": \"   \"}"
+  },
+  "long_message": {
+    "body": "{\"severity\": \"error\", \"message\": \"This is a very long log message that contains detailed information about an error that occurred in the system. It includes stack traces, error codes, timestamps, and other relevant debugging information that will help engineers diagnose and fix the issue quickly.\"}"
+  }
+}

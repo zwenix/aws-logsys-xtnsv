@@ -1,4 +1,4 @@
-# Log Service Platform - AWS Serverless Solution
+# Log Service Platform - AWS Serverless Solution by Zwelakhe Msuthu | 28/01/2026
 
 A production-ready, serverless log ingestion and retrieval system built on AWS infrastructure.
 
@@ -31,7 +31,7 @@ This solution implements a scalable, serverless log management system using AWS 
 └─────────────────┘
 ```
 
-## Technology Decisions
+## Rationale Behind Choice of Technology
 
 ### Database Selection: Amazon DynamoDB
 
@@ -120,8 +120,8 @@ log-service-platform/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/log-service-platform.git
-cd log-service-platform
+git clone https://github.com/zwenix/aws-logsys.git
+cd aws-logsys
 ```
 
 ### 2. Configure AWS Credentials

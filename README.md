@@ -449,7 +449,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-Created for Games Global Platform Engineer Application
+Created by Zwelakhe Msuthu for Games Global Platform Engineer Application
+_____________________________________
+_____________________________________
+|| See my public repos for more....||
+*************************************
+_____________________________________
 
 ## Support
 

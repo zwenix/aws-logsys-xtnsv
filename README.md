@@ -120,7 +120,7 @@ log-service-platform/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/zwenix/aws-logsys.git
+git clone https://github.com/zwenix/aws-logsystm.git
 cd aws-logsys
 ```
 
@@ -404,10 +404,10 @@ For high-volume production workloads:
 
 | Service | Usage | Estimated Cost |
 |---------|-------|----------------|
-| Lambda | 1M requests/month | $0.20 |
-| DynamoDB | 1M writes, 10M reads | $1.50 |
-| CloudWatch Logs | 10GB stored | $5.00 |
-| **Total** | | **~$6.70/month** |
+| Lambda | 1M requests/month | $0.20 / R3.20 |
+| DynamoDB | 1M writes, 10M reads | $1.50 / R24.00 |
+| CloudWatch Logs | 10GB stored | $5.00 / R80.00 |
+| **Total** | | **~$6.70 / R107.20 per month** |
 
 *Costs scale with usage. AWS Free Tier may cover development/testing.*
 
@@ -442,19 +442,21 @@ Contributions are welcome! Please follow these guidelines:
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
+____________________________________________________________________________________
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+************************************************************************************
 ## Author
 
-Created by Zwelakhe Msuthu for Games Global Platform Engineer Application
-_____________________________________
-_____________________________________
-|| See my public repos for more....||
-*************************************
-_____________________________________
+Created by **Zwelakhe Msuthu** for Games Global Platform Engineer Application
+____________________________________________________________________________________
+
+**************************************
+****See my public repos for more..****  
+**************************************
+____________________________________________________________________________________
 
 ## Support
 
